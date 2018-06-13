@@ -1,0 +1,416 @@
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.88
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          May 7 2018 11:12:57 UTC
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.88.0
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.8.0_151\jre
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_151-b12
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88\conf\logging.properties
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88
+六月 01, 2018 11:56:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88\temp
+六月 01, 2018 11:56:09 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.2.16 using APR version 1.6.3.
+六月 01, 2018 11:56:09 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+六月 01, 2018 11:56:10 上午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.2m  2 Nov 2017)
+六月 01, 2018 11:56:10 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8080"]
+六月 01, 2018 11:56:10 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8009"]
+六月 01, 2018 11:56:10 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1465 ms
+六月 01, 2018 11:56:10 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+六月 01, 2018 11:56:10 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.88
+六月 01, 2018 11:56:10 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88\webapps\docs
+六月 01, 2018 11:56:11 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 11:56:11 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88\webapps\docs has finished in 555 ms
+六月 01, 2018 11:56:11 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88\webapps\examples
+六月 01, 2018 11:56:11 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 11:56:11 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88\webapps\examples has finished in 514 ms
+六月 01, 2018 11:56:11 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88\webapps\host-manager
+六月 01, 2018 11:56:11 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 11:56:11 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88\webapps\host-manager has finished in 208 ms
+六月 01, 2018 11:56:11 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88\webapps\manager
+六月 01, 2018 11:56:12 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 11:56:12 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88\webapps\manager has finished in 115 ms
+六月 01, 2018 11:56:12 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88\webapps\ROOT
+六月 01, 2018 11:56:12 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 11:56:12 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-7.0.88\webapps\ROOT has finished in 91 ms
+六月 01, 2018 11:56:12 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8080"]
+六月 01, 2018 11:56:12 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8009"]
+六月 01, 2018 11:56:12 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1608 ms
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.88
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          May 7 2018 11:12:57 UTC
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.88.0
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.8.0_151\jre
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_151-b12
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\conf\logging.properties
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400
+六月 01, 2018 12:01:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\temp
+六月 01, 2018 12:01:31 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.2.16 using APR version 1.6.3.
+六月 01, 2018 12:01:31 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+六月 01, 2018 12:01:32 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.2m  2 Nov 2017)
+六月 01, 2018 12:01:32 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-9400"]
+六月 01, 2018 12:01:32 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8010"]
+六月 01, 2018 12:01:32 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1639 ms
+六月 01, 2018 12:01:32 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+六月 01, 2018 12:01:32 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.88
+六月 01, 2018 12:01:32 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\docs
+六月 01, 2018 12:01:33 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 12:01:33 下午 tomcat.request.session.redis.SessionManager startInternal
+信息: The sessions will expire after 1800 seconds.
+六月 01, 2018 12:01:33 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\docs has finished in 829 ms
+六月 01, 2018 12:01:33 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\examples
+六月 01, 2018 12:01:34 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 12:01:34 下午 tomcat.request.session.redis.SessionManager startInternal
+信息: The sessions will expire after 1800 seconds.
+六月 01, 2018 12:01:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\examples has finished in 831 ms
+六月 01, 2018 12:01:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\host-manager
+六月 01, 2018 12:01:34 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 12:01:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\host-manager has finished in 260 ms
+六月 01, 2018 12:01:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\manager
+六月 01, 2018 12:01:35 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 12:01:35 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\manager has finished in 125 ms
+六月 01, 2018 12:01:35 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\ROOT
+六月 01, 2018 12:01:35 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 12:01:35 下午 tomcat.request.session.redis.SessionManager startInternal
+信息: The sessions will expire after 1800 seconds.
+六月 01, 2018 12:01:35 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\ROOT has finished in 96 ms
+六月 01, 2018 12:01:35 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\test
+六月 01, 2018 12:01:35 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 12:01:35 下午 tomcat.request.session.redis.SessionManager startInternal
+信息: The sessions will expire after 1800 seconds.
+六月 01, 2018 12:01:35 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\test has finished in 170 ms
+六月 01, 2018 12:01:35 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-9400"]
+六月 01, 2018 12:01:35 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8010"]
+六月 01, 2018 12:01:35 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 2436 ms
+六月 01, 2018 2:00:44 下午 tomcat.request.session.data.cache.impl.RedisDataCache$RedisCacheUtil get
+严重: Jedis connection failed, retrying...1
+六月 01, 2018 2:00:45 下午 tomcat.request.session.data.cache.impl.RedisDataCache$RedisCacheUtil get
+严重: Jedis connection failed, retrying...2
+六月 01, 2018 2:00:46 下午 tomcat.request.session.data.cache.impl.RedisDataCache$RedisCacheUtil get
+严重: Jedis connection failed, retrying...3
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.88
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          May 7 2018 11:12:57 UTC
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.88.0
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.8.0_151\jre
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_151-b12
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\conf\logging.properties
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\temp
+六月 01, 2018 2:56:32 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.2.16 using APR version 1.6.3.
+六月 01, 2018 2:56:32 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+六月 01, 2018 2:56:32 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.2m  2 Nov 2017)
+六月 01, 2018 2:56:32 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-9400"]
+六月 01, 2018 2:56:32 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8010"]
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1425 ms
+六月 01, 2018 2:56:32 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+六月 01, 2018 2:56:32 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.88
+六月 01, 2018 2:56:32 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\docs
+六月 01, 2018 2:56:33 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 2:56:33 下午 tomcat.request.session.redis.SessionManager startInternal
+信息: The sessions will expire after 1800 seconds.
+六月 01, 2018 2:56:33 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\docs has finished in 681 ms
+六月 01, 2018 2:56:33 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\examples
+六月 01, 2018 2:56:34 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 2:56:34 下午 tomcat.request.session.redis.SessionManager startInternal
+信息: The sessions will expire after 1800 seconds.
+六月 01, 2018 2:56:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\examples has finished in 695 ms
+六月 01, 2018 2:56:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\host-manager
+六月 01, 2018 2:56:34 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 2:56:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\host-manager has finished in 176 ms
+六月 01, 2018 2:56:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\manager
+六月 01, 2018 2:56:34 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 2:56:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\manager has finished in 113 ms
+六月 01, 2018 2:56:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\ROOT
+六月 01, 2018 2:56:34 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 2:56:34 下午 tomcat.request.session.redis.SessionManager startInternal
+信息: The sessions will expire after 1800 seconds.
+六月 01, 2018 2:56:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\ROOT has finished in 124 ms
+六月 01, 2018 2:56:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\test
+六月 01, 2018 2:56:34 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 2:56:34 下午 tomcat.request.session.redis.SessionManager startInternal
+信息: The sessions will expire after 1800 seconds.
+六月 01, 2018 2:56:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\test has finished in 139 ms
+六月 01, 2018 2:56:34 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-9400"]
+六月 01, 2018 2:56:34 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8010"]
+六月 01, 2018 2:56:34 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 2062 ms
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.88
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          May 7 2018 11:12:57 UTC
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.88.0
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.8.0_151\jre
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_151-b12
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\conf\logging.properties
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400
+六月 01, 2018 2:57:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\temp
+六月 01, 2018 2:57:45 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.2.16 using APR version 1.6.3.
+六月 01, 2018 2:57:45 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+六月 01, 2018 2:57:46 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.2m  2 Nov 2017)
+六月 01, 2018 2:57:46 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-9400"]
+六月 01, 2018 2:57:46 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8010"]
+六月 01, 2018 2:57:46 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1405 ms
+六月 01, 2018 2:57:46 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+六月 01, 2018 2:57:46 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.88
+六月 01, 2018 2:57:46 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\docs
+六月 01, 2018 2:57:47 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 2:57:47 下午 tomcat.request.session.redis.SessionManager startInternal
+信息: The sessions will expire after 1800 seconds.
+六月 01, 2018 2:57:47 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\docs has finished in 583 ms
+六月 01, 2018 2:57:47 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\examples
+六月 01, 2018 2:57:47 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 2:57:47 下午 tomcat.request.session.redis.SessionManager startInternal
+信息: The sessions will expire after 1800 seconds.
+六月 01, 2018 2:57:47 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\examples has finished in 446 ms
+六月 01, 2018 2:57:47 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\host-manager
+六月 01, 2018 2:57:47 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 2:57:48 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\host-manager has finished in 230 ms
+六月 01, 2018 2:57:48 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\manager
+六月 01, 2018 2:57:48 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 2:57:48 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\manager has finished in 106 ms
+六月 01, 2018 2:57:48 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\ROOT
+六月 01, 2018 2:57:48 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 2:57:48 下午 tomcat.request.session.redis.SessionManager startInternal
+信息: The sessions will expire after 1800 seconds.
+六月 01, 2018 2:57:48 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\ROOT has finished in 102 ms
+六月 01, 2018 2:57:48 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\test
+六月 01, 2018 2:57:48 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+六月 01, 2018 2:57:48 下午 tomcat.request.session.redis.SessionManager startInternal
+信息: The sessions will expire after 1800 seconds.
+六月 01, 2018 2:57:48 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\Administrator\Desktop\jiqun\apache-tomcat-9400\webapps\test has finished in 133 ms
+六月 01, 2018 2:57:48 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-9400"]
+六月 01, 2018 2:57:48 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8010"]
+六月 01, 2018 2:57:48 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1708 ms
+六月 01, 2018 3:25:51 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+六月 01, 2018 3:25:51 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-apr-9400"]
+六月 01, 2018 3:25:51 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-apr-8010"]
+六月 01, 2018 3:25:51 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+六月 01, 2018 3:25:51 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-apr-9400"]
+六月 01, 2018 3:25:51 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-apr-8010"]
+六月 01, 2018 3:25:51 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-apr-9400"]
+六月 01, 2018 3:25:51 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-apr-8010"]

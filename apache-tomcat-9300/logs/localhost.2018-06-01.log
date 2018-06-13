@@ -1,0 +1,176 @@
+六月 01, 2018 11:56:11 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+六月 01, 2018 11:56:11 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+六月 01, 2018 11:56:11 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@438b340f')
+六月 01, 2018 11:56:11 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@6410e1d7')
+六月 01, 2018 12:01:21 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+六月 01, 2018 12:01:21 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+六月 01, 2018 12:01:21 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3f421df1')
+六月 01, 2018 12:01:21 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@2f3dad93')
+六月 01, 2018 2:00:47 下午 org.apache.catalina.core.StandardHostValve invoke
+严重: Exception Processing /test/
+redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at tomcat.request.session.data.cache.impl.RedisDataCache$RedisCacheUtil.get(RedisDataCache.java:315)
+	at tomcat.request.session.data.cache.impl.RedisDataCache.get(RedisDataCache.java:68)
+	at tomcat.request.session.redis.SessionManager.findSession(SessionManager.java:210)
+	at tomcat.request.session.redis.SessionManager.findSession(SessionManager.java:37)
+	at org.apache.catalina.connector.Request.doGetSession(Request.java:3069)
+	at org.apache.catalina.connector.Request.getSessionInternal(Request.java:2677)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:430)
+	at tomcat.request.session.redis.SessionHandlerValve.invoke(SessionHandlerValve.java:37)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1139)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2555)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 22 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 29 more
+
+六月 01, 2018 2:43:23 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+六月 01, 2018 2:43:23 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+六月 01, 2018 2:43:24 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@19137a6c')
+六月 01, 2018 2:43:24 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@4488175c')
+六月 01, 2018 2:45:46 下午 org.apache.catalina.core.StandardHostValve invoke
+严重: Exception Processing /test/
+redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at tomcat.request.session.data.cache.impl.RedisDataCache$RedisCacheUtil.get(RedisDataCache.java:315)
+	at tomcat.request.session.data.cache.impl.RedisDataCache.get(RedisDataCache.java:68)
+	at tomcat.request.session.redis.SessionManager.findSession(SessionManager.java:210)
+	at tomcat.request.session.redis.SessionManager.findSession(SessionManager.java:37)
+	at org.apache.catalina.connector.Request.doGetSession(Request.java:3069)
+	at org.apache.catalina.connector.Request.getSessionInternal(Request.java:2677)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:430)
+	at tomcat.request.session.redis.SessionHandlerValve.invoke(SessionHandlerValve.java:37)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1139)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2555)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 22 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 29 more
+
+六月 01, 2018 2:46:45 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+六月 01, 2018 2:46:45 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+六月 01, 2018 2:46:45 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@57d92833')
+六月 01, 2018 2:46:45 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@9ccd536')
+六月 01, 2018 2:47:10 下午 org.apache.catalina.core.StandardHostValve invoke
+严重: Exception Processing /test/
+redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at tomcat.request.session.data.cache.impl.RedisDataCache$RedisCacheUtil.get(RedisDataCache.java:315)
+	at tomcat.request.session.data.cache.impl.RedisDataCache.get(RedisDataCache.java:68)
+	at tomcat.request.session.redis.SessionManager.findSession(SessionManager.java:210)
+	at tomcat.request.session.redis.SessionManager.findSession(SessionManager.java:37)
+	at org.apache.catalina.connector.Request.doGetSession(Request.java:3069)
+	at org.apache.catalina.connector.Request.getSessionInternal(Request.java:2677)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:430)
+	at tomcat.request.session.redis.SessionHandlerValve.invoke(SessionHandlerValve.java:37)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1139)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2555)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2544)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 22 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 29 more
+
